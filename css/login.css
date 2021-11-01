@@ -11,10 +11,9 @@
   font-size: 50px; 
 }
    
-body {
+body{
   margin: 0;
-  background-color: #1BBC9B;
-  background:#0C3C60 url('../kmlaonlinebackground.png') no-repeat;
+  background:#0C3C60 url('../sources/kmlaonlinebackground.png') no-repeat;
   background-size: cover;
 }
     
