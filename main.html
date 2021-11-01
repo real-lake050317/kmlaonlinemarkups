@@ -1,44 +1,34 @@
 <!DOCTYPE html>
 <html lang = "ko">
-<head>
-	<meta charset="UTF-8">
-	<title>KMLA ONLINE</title>
-	<link rel = "stylesheet" href = "style.css">
-	<style>
-	</style>
-</head>
-<body>
-	<ul id = "nav">
-		<li><a href = "#">전체</a>
-			<ul>
-				<li><a href = "#">공지</a></li>
-				<li><a href = "#">포럼</a></li>
-				<li><a href = "#">자료실</a></li>
-				<li><a href = "#">갤러리</a></li>
-				<li><a href = "#">Archive</a></li>
+	<head>
+		<meta charset = "UTF-8" />
+		<meta http-equiv = "X-UA-Compatible" content = "IE=edge" />
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0" />
+		<link rel = "stylesheet" href = "css/main.css" />
+		<title>KMLA Online</title>
+	</head>
+	<body>
+		<nav class = "navbar">
+			<div class = "logo">KMLA ONLINE</div>
+			<ul class = "nav-links">
+				<input type = "checkbox" id = "checkbox_toggle" />
+				<label for = "checkbox_toggle" class = "hamburger">&#9776;</label>
+				<div class = "menu">
+					<li><a href = "/">Home</a></li>
+					<li><a href = "/">About</a></li>
+					<li class = "services">
+						<a href = "/">Services</a>
+						<ul class=  "dropdown">
+							<li><a href = "/">Dropdown 1</a></li>
+							<li><a href = "/">Dropdown 2</a></li>
+							<li><a href = "/">Dropdown 3</a></li>
+							<li><a href = "/">Dropdown 4</a></li>
+						</ul>
+					</li>
+					<li><a href = "/">Pricing</a></li>
+					<li><a href = "/">Contact</a></li>
+				</div>
 			</ul>
-		</li>
-		<li><a href = "#">교내</a>
-			<ul>
-				<li><a href = "#">교내항목1</a></li>
-				<li><a href = "#">교내항목2</a></li>
-			</ul>
-		</li>
-		<li><a href = "#">개인화</a>
-			<ul>
-				<li><a href = "#">교내항목1</a></li>
-				<li><a href = "#">교내항목2</a></li>
-			</ul>
-		</li>
-		<li><a href = "#">둘러보기</a>
-			<ul>
-				<li><a href = "#">교내항목1</a></li>
-				<li><a href = "#">교내항목2</a></li>
-			</ul>
-		</li>		
-	</ul>
-	<div class = "header"></div>
-	<div class = "container"></div>
-	<div class = "footer"></div>
-</body>
+		</nav>
+	</body>
 </html>

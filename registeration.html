@@ -2,6 +2,7 @@
 <html>
 <head>
   <style>
+
     select {
       width: 260px;
       padding: 10px;
@@ -12,7 +13,7 @@
       appearance: none;
     }
   </style>
-  <title>KMLA ONLINE - Registeration</title>
+  <title>KMLA ONLINE - Registration</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/registeration.css">
   <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
@@ -23,26 +24,29 @@
   <form>
     <h2 class = "regi">회원가입</h2>
     <input type="text" name="name" class="text-field" placeholder="이름" required>
-    <input type="text" name="id" class="text-field" placeholder="아이디" required>
-    <input type="password" name="password" class="text-field" placeholder="비밀번호" required>
-    <input type="password" name="password_check" class="text-field" placeholder="비밀번호 확인" required>
-    <input type="email" name="email" class="text-field" placeholder="이메일 (example@xyz.com)" required><br>
-    <input type="date" name="birthday" class="text-field" value="생일" required>
-    <input type="number" name="schoolid" class="text-field" placeholder="학번" required>
-    <select name="waver" required>
+    <select name="waver" required class = "selectors">
       <option value="">기수</option>
       <option value="26wav">26</option>
       <option value="25wav">25</option>
       <option value="24wav">24</option>
     </select>
-    <input type="text" name="interest" class="text-field" placeholder="관심사/전공" required>
-    <input type="phonenumber" name="phonenumber" class="text-field" placeholder="전화번호" required>
-    <select name="waver" required>
+    <input type="number" name="schoolid" class="text-field" placeholder="학번" required>
+    <input type="text" name="id" class="text-field" placeholder="아이디" required>
+    <input type="password" name="password" class="text-field" placeholder="비밀번호" required>
+    <input type="password" name="password_check" class="text-field" placeholder="비밀번호 확인" required>
+    <select name="gender" required class = "selectors">
       <option value="">성별</option>
       <option value="men">남자</option>
       <option value="women">여자</option>
       <option value="genderetc">기타</option>
     </select>
+    <!-- <input type="date" name="birthday" class="text-field" value="생일" required> -->
+    <input placeholder="생일" class="text-field" type="text" onfocus="(this.type='date')" id="birthday">
+
+    <input type="email" name="email" class="text-field" placeholder="이메일 (example@xyz.com)" required><br>
+    <input type="number" name="phonenumber" class="text-field" placeholder="전화번호" required>
+    <input type="text" name="interest" class="text-field" placeholder="관심사/전공" required>
+    <input type="text" name="words" class="text-field" placeholder="소개글" required>
     <div class = 'scrollBox'>
       <div class="scrollText" tabindex="0">
         <strong>1. 개인정보의 수집항목</strong><br>
@@ -68,7 +72,7 @@
         </div>
         <br>
         <div class = "contacts">
-          &copy; 2021 KMLA .NET, KMLA ONLINE, 26th waver 김진호, 박승현, 김준범, 김유환.` 
+          &copy; 2021 KMLA .NET, KMLA ONLINE, 26th waver 김진호, 박승현, 김준범, 김유환.
         </div>
       </div>
     </div>

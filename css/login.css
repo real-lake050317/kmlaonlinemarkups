@@ -4,12 +4,8 @@
   box-sizing: border-box;
   border-radius: 5px;
 }
-.title{
-  margin-top: 150px;
-  font-family: 'Abhaya Libre', serif;
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
+.title{ margin-top: 250px; font-family: 'Abhaya Libre', serif; text-align:
+ center; color: #fff; font-size: 50px; 
 }
    
 body {
@@ -19,7 +15,7 @@ body {
   //background-image: url('../kmlaonlinebackground.png');
   background-size: cover;
 }
-   
+    
 .login-form {
   width: 300px;
   background-color: rgba(255, 255, 255, 0.88);
