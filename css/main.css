@@ -26,8 +26,11 @@ li {
 	color: #000;
 }
 
-.logo {
-	font-size: 32px;
+#logo{ 
+	margin-top: 150px; 
+	font-family: 'Abhaya Libre', serif; text-align: center; 
+	color: #fff; 
+	font-size: 50px; 
 }
 
 .menu {
