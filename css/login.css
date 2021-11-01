@@ -5,15 +5,16 @@
   border-radius: 5px;
 }
 .title{ 
-  margin-top: 150px; font-family: 'Abhaya Libre', serif; text-align:
-  center; color: #fff; font-size: 50px; 
+  margin-top: 150px; 
+  font-family: 'Abhaya Libre', serif; text-align: center; 
+  color: #fff; 
+  font-size: 50px; 
 }
    
 body {
   margin: 0;
   background-color: #1BBC9B;
   background:#0C3C60 url('../kmlaonlinebackground.png') no-repeat;
-  //background-image: url('../kmlaonlinebackground.png');
   background-size: cover;
 }
     
