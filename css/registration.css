@@ -16,7 +16,7 @@
 body {
   margin: 0;
   background:#0C3C60 url('../sources/kmlaonlinebackground.png') no-repeat;
-  background-size: cover;
+  background-size: 1600px;
 }
 
 .login-form {
