@@ -1,40 +1,28 @@
 <!DOCTYPE html>
-<html lang = "ko">
-	<head>
-		<meta charset = "UTF-8" />
-		<meta http-equiv = "X-UA-Compatible" content = "IE=edge" />
-		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0" />
-		<link rel = "stylesheet" href = "css/main.css" />
-		<title>Home - 큼온</title>
-		<link rel="shortcut icon" type="image/x-icon" href="sources/kmlaonline logo two blue.png">
-	</head>
-	<body>
-		<nav class = "navbar">
-			<img class="logo" src="sources/kmlaonline logo one.png" alt="main logo">
-			<ul class = "nav-links">
-				<div class = "menu">
-					<li><a href = "/">공강신청</a></li>
-					<li><a href = "/">공지</a></li>
-					<li class = "services">
-						<a href = "/">학생회 ▼</a>
-						<ul class=  "dropdown">
-							<li><a href = "/"> - 입법위원회</a></li>
-							<li><a href = "/"> - 사법위원회</a></li>
-							<li><a href = "/"> - 행정위원회</a></li>
-						</ul>
-					</li>
-					<li><a href = "/">포럼</a></li>
-					<li><a href = "/">상벌점 확인</a></li>
-					<li><a href = "/"><img class = "three" src="sources/who.png" alt="프로필"></a></li>
-					<li><a href = "/"><img class = "three" src="sources/search.png" alt="검색"></a></li>
-					<li><a href = "/"><img class = "three" src="sources/ringring.png" alt="알림"></a></li>
-				</div>
-			</ul>
-		</nav>
-		<div class = "main">
-			<h1>Hi</h1>
-		</div>
-
-
-	</body>
+<html>
+<head>
+  <title>Login - 큼온</title>
+  <link rel="shortcut icon" type="image/x-icon" href="sources/kmlaonline logo two blue.png">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/login.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+</head>
+<body>
+  <body link = "white" alink = "white" vlink = "white">
+  <div class = "title">
+    <!--<h1>KMLA ONLINE</h1>-->
+    <img class="wow" src="sources/kmlaonline logo one.png" alt="main logo">
+    <p>"민족사관고등학교 학생 온라인 커뮤니티"</p>
+  </div>
+  <div class="login-form">
+  <form>
+    <input type="text" name="email" class="text-field" placeholder="아이디">
+    <input type="password" name="password" class="text-field" placeholder="비밀번호">
+    <input type="submit" value="로그인" class="submit-btn">
+    <button class = 'register' onclick="location.href='registeration.html'">회원가입</button>
+    </form>
+  <div class="links">
+    <a href="#">비밀번호를 잊어버리셨나요?</a>
+  </div>
+</body>
 </html>
