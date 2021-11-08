@@ -20,16 +20,17 @@ a {
 li {
 	list-style: none;
 }
-  
+ 
 .nav-links{
 	font-family: 'ridibatang', sans-serif;
 	width: 500px;
+	height: 50px;
 	font-style: normal;
 	font-weight: normal;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 100px;
+	margin-top: 500px;
 	background-color: transparent;
 	color: #000;
 	margin: 75px auto;
@@ -76,12 +77,8 @@ nav ul li ul {
 	font-size: 15px;
 }
 
-.menu li:hover {
-	background-color: #0C3C60;
-}
-
 .kmlaonlinetitle {
-	margin-top: 175px;
+	margin-top: 100px;
 	margin-left: auto;
 	width: auto;
 	height: auto;
@@ -96,8 +93,8 @@ nav ul li ul {
 }
 
 .rectangle {
-	width: 100px;
-	height: 100px;
-	margin: auto;
+	width: 70%;
+	margin: 10px auto;
+	height: 2px;
 	background: #fff;
 }
