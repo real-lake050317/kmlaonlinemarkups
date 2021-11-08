@@ -11,7 +11,11 @@
   color: #fff; 
   font-size: 50px; 
 }
-   
+
+.intro {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 body{
   margin: 0;
   background:#0C3C60 url('../sources/kmlaonlinebackground.png') no-repeat;
