@@ -3,7 +3,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+@font-face{
+	font-family: "ridibatang";
+	src: url("../sources/RIDIBatang.otf");
+}
+body{
+  margin-top: 0;
+  background:#0C3C60 url('../sources/backgroundnew.png') no-repeat;
+  background-size: cover;
+}
 
 a {
 	text-decoration: none;
@@ -13,13 +21,17 @@ li {
 	list-style: none;
 }
   
-.navbar {
+.navbar{
+	font-family: 'ridibatang', sans-serif;
+	font-style: normal;
+	font-weight: normal;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px;
-	background-color: #0C3C60;
+	background-color: transparent;
 	color: #000;
+	margin-left: auto;
 }
 
 .nav-links a {
@@ -29,16 +41,18 @@ li {
 	color: #fff; 
 }
 
-.logo {
-  	width: 200px;
-	height: 30px;
+.profile {
+	margin-left: 30px;
+	margin-top: 30px;
+  	width: 50px;
+	height: 50px;
 }
 
 nav ul li:hover ul {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
-	background-color: #0C3C60;
+	background-color: rgba(0, 0, 0, 0.88);
 }
 nav ul li ul {
     display: block;
@@ -53,7 +67,6 @@ nav ul li ul {
     transform: translateY(40px);
 }
 
-
 .menu {
 	display: flex;
 	gap: 1em;
@@ -63,9 +76,17 @@ nav ul li ul {
 .menu li:hover {
 	background-color: #0C3C60;
 }
-
-.three{
-	width : 24px;
-	height : 24px;
-
+.kmlaonlinetitle {
+	margin-top: 175px;
+	margin-left: auto;
+	width: auto;
+	height: auto;
+	text-align: center;
+	top: 368px;
+	font-family: Abhaya Libre ExtraBold;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 96px;
+	line-height: 77px;
+	color: #FFFFFF;
 }
