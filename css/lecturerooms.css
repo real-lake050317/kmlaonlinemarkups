@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poiret+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.title{ 
+  margin-top: 150px; 
+  font-family: 'Abhaya Libre', serif; text-align: center; 
+  color: #fff; 
+  font-size: 50px; 
+}
+
+.intro {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+  margin: 0;
+  background:#0C3C60 url('../sources/kmlaonlinebackground.png') no-repeat;
+  background-size: cover;
+}
+
+.regiform {
+  width: 80%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.88);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+   
+.text-field {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  width: 260px;
+  margin-bottom: 10px;
+  margin-left: 30%;
+}
+   
+.submit-btn {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  width: 260px;
+  background-color: #0C3C60;
+  margin-bottom: 10px;
+  color: white;
+  align-items: ;
+}
+
+.text-field {
+  width: 40%;
+  height: 10px;
+}
